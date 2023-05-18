@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+KIRISPE
+*/
+
+.site-cover{
+    min-height: 730px;
+    background-image: url('./images/bgintro.png');
+    background-size: cover;
+    color: white;
+}
+
+.uni-text{
+    font-size: 14px;
+    width: 400px;
+    padding: 16px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.uni-img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.uni-img img{
+    width: 100%;
+}
+
+.diploma-title{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 400px;
+    margin: 11px auto 21px; 
+}
+
+.diploma-description{
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.diploma-author{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 30%;
+}
+
+.kirispe-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.kirispe-btn a{
+    background: #7E3811;
+    border-radius: 20px;
+    padding: 11px 26px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.kirispe-btn a:hover{
+    background: #F4AE40;
+}
+
+.ramka{
+    width: 100%;
+    height: 65px;
+    background-image: url(./images/ramka.png);
+}
+
+.ramka-ver{
+    width: 65px;
+    height: 89%;
+    background-image: url(./images/ramka-ver.png);
+    position: absolute;
+    top:9%;
+}
+
+.ramka-left{
+    left: 0;
+}
+
+.ramka-right{
+    right: 0;
+}
+
+.intro-dombyra{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.intro-qobyz{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.left{
+    width: 20%;
+    min-height: 100vh;
+    background-image: url(./images/left-bg.png);
+    background-size: cover;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: fixed;
+    left: 0;
+}
+
+.right{
+    width: 80%;
+    height: 3000px;
+    position: absolute;
+    right: 0;
+    padding: 25px;
+    background-image: url('./images/right-bg.png');
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+
+.nav-item a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 32px;
+}
+
+.nav-child{
+    padding-left: 60px;
+    color: white;
+    list-style-type: square;
+}
+
+.nav-child li{
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.nav-child li:hover{
+    color: yellow;
+}
+
+.nav-item a:hover{
+    width: 20px;
+}
+
+.active a{
+    color: #F9F871;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.back img{
+    width: 30px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.right-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.sections{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: none;
+}
+
+#bio{
+    display: block;
+}
+
+.bio-img img{
+    width: 100%;
+}
+
+.bio-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 60px 0 25px;
+}
+
+.bio-text{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.video{
+    background-image: url('./images/ramka.png');
+    padding: 20px;
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.video video{
+    width: 500px;
+    aspect-ratio: 16/9;
+}
+
+.photo-container {
+    max-width: 100%; 
+    height: auto; 
+    background-image: url('./images/ramka.png');
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    aspect-ratio: 16/9;
+  }
+  
+  .photo-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.audio h1{
+    margin: 40px 0px 20px;
+}
+
+.audio-item{
+    padding: 20px;
+    border-radius: 80px;
+    background-image: url("./images/ramka.png");
+    width: max-content;
+}
+
+.pdfs{
+    position: fixed;
+    right: 1%;
+}
+
+.pdfs a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.pdfs a:hover{
+    color: yellow;
+}
+
+.sostav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sostav-left{
+    width: 48%;
+}
+
+.sostav-text p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    line-height: 25px;
+}
+
+.sostav-right{
+    width: 48%;
+}
+
+.sostav-right img{
+    margin-bottom: 40px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.gallery-item{
+    max-width: 45%; 
+    height: auto; 
+    background-image: url('./images/ramka.png');
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    aspect-ratio: 16/9;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item p{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+@media all and (max-width: 1024px){
+    .kirispe{
+        width: 768px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .kirispe{
+        width: 480px;
+    }
+
+    .diploma-author{
+        margin-right: 20px;
+    }
+
+    .diploma-title{
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .diploma-description{
+        width: 90%;
+    }
+
+    .kirispe-text{
+        font-size: 16px;
+    }
+}
